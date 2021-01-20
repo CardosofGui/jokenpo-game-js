@@ -19,15 +19,15 @@ function startGame(playerOption){
 
     switch (playerOption) {
         case 1:
-            imagePlayer.style.backgroundImage = 'url(../img/Pedra.png)';
+            imagePlayer.style.backgroundImage = 'url(./img/pedra.png)';
             optionPlayerText = 'Pedra';
             break;
         case 2:
-            imagePlayer.style.backgroundImage = 'url(../img/Papel.png)';
+            imagePlayer.style.backgroundImage = 'url(./img/papel.png)';
             optionPlayerText = 'Papel';
             break;
         case 3:
-            imagePlayer.style.backgroundImage = 'url(../img/Tesoura.png)';
+            imagePlayer.style.backgroundImage = 'url(./img/tesoura.png)';
             optionPlayerText = 'Tesoura';
             break;
     }
@@ -36,15 +36,15 @@ function startGame(playerOption){
 
     switch (optionComputer) {
         case 1:
-            imageComputer.style.backgroundImage = 'url(../img/Pedra.png)';
+            imageComputer.style.backgroundImage = 'url(./img/pedra.png)';
             optionComputerText = 'Pedra';
             break;
         case 2:
-            imageComputer.style.backgroundImage = 'url(../img/Papel.png)';
+            imageComputer.style.backgroundImage = 'url(./img/papel.png)';
             optionComputerText = 'Papel';
             break;
         case 3:
-            imageComputer.style.backgroundImage = 'url(../img/Tesoura.png)';
+            imageComputer.style.backgroundImage = 'url(./img/tesoura.png)';
             optionComputerText = 'Tesoura';
             break;
     }
