@@ -1,0 +1,76 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+section.game{
+    text-align: center;
+    width: 80%;
+    margin: 0 auto;
+}
+
+div.punctuation{
+    width: 100%;
+    margin-bottom: 3%;
+}
+
+div.table-punctuation{
+    display: table;
+    width: 100%;
+    text-align: center;
+}
+
+div.tr-punctuation{
+    display: table-row;
+}
+
+div.th-punctuation{
+    display: table-cell;
+    width: 33.33%;
+}
+
+#result{
+    margin: 3% 3%;
+}
+
+/*** PLAYER ***/
+
+div.player{
+    display: inline-block;
+    width: 50%;
+}
+
+div.player-options li{
+    display: inline;
+    margin-right: 10%;
+    font-weight: bold;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+#imagePlayer{
+    background-image: url(../img/pedra.png);
+    height: 250px;
+    background-repeat: no-repeat;
+    background-position: center;
+    transition: 400ms;
+}
+
+
+
+/*** COMPUTADOR ***/
+div.computer{
+    display: inline-block;
+    width: 50%;
+    margin-left: -4px;
+    vertical-align: top;
+}
+
+#imageComputer{
+    background-image: url(../img/pedra.png);
+    height: 250px;
+    background-repeat: no-repeat;
+    background-position: center;
+    transition: 400ms;
+}

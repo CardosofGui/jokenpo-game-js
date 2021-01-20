@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jokenpo JS</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    
+    <section class="game">
+        <div class="punctuation">
+            <div class="table-punctuation">
+                <div class="tr-punctuation">
+                    <div class="th-punctuation">
+                        <h2>You</h2>
+                    </div>
+                    <div class="th-punctuation">
+                        <h2>Draw</h2>
+                    </div>
+                    <div class="th-punctuation">
+                        <h2>Computer</h2>
+                    </div>
+                </div>
+                <div class="tr-punctuation">
+                    <div class="th-punctuation">
+                        <h2 id="player">0</h2>
+                    </div>
+                    <div class="th-punctuation">
+                        <h2 id="draw">0</h2>
+                    </div>
+                    <div class="th-punctuation">
+                        <h2 id="computer">0</h2>
+                    </div>
+                </div>
+            </div>
+
+            <h2 id="result"></h2>
+        </div>
+
+        <div class="player">
+            <div id="imagePlayer"></div>
+            <div class="player-options">
+                <li onclick="startGame(1)">Pedra</li>
+                <li onclick="startGame(2)">Papel</li>
+                <li onclick="startGame(3)">Tesoura</li>
+            </div>
+        </div>
+        <div class="computer">
+            <div id="imageComputer"></div>
+        </div>
+    </section>
+
+</body>
+</html>
+
+<script src="js/index.js"></script>
